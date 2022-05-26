@@ -1,0 +1,80 @@
+// scss-lint:disable all
+// scss-lint를 적용하지 않겠다는 뜻
+
+@font-face {
+  font-family: 'tomorrow-house';
+  // src: url('fonts/tomorrow-house.eot?to8179'); -> ?to8179와 같이 뒤에 붙는 이상한 태그 지우기
+  src: url('./assets/fonts/tomorrow-house.eot');
+  src: url('./assets/fonts/tomorrow-house.eot#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/tomorrow-house.ttf') format('truetype'),
+    url('./assets/fonts/tomorrow-house.woff') format('woff'),
+    url('./assets/fonts/tomorrow-house.svg#tomorrow-house') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tomorrow-house' !important;
+  // speak: never;  -> 필요없는데 에러뜨는 부분은 삭제
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-bell:before {
+  content: '\e900';
+}
+.ic-bookmark:before {
+  content: '\e901';
+}
+.ic-bookmark-filled:before {
+  content: '\e902';
+}
+.ic-caret:before {
+  content: '\e903';
+}
+.ic-cart:before {
+  content: '\e904';
+}
+.ic-check:before {
+  content: '\e905';
+}
+.ic-chevron:before {
+  content: '\e906';
+}
+.ic-close:before {
+  content: '\e907';
+}
+.ic-community:before {
+  content: '\e908';
+}
+.ic-expert:before {
+  content: '\e909';
+}
+.ic-lock:before {
+  content: '\e90a';
+}
+.ic-menu:before {
+  content: '\e90b';
+}
+.ic-new:before {
+  content: '\e90c';
+}
+.ic-search:before {
+  content: '\e90d';
+}
+.ic-star:before {
+  content: '\e90e';
+}
+.ic-store:before {
+  content: '\e90f';
+}

@@ -1,4 +1,1 @@
-p{
-    color: yellow;
-    display: block;
-}
+@import './base/fonts'; // main.scss가 base 폴더 내 scss들을 인식하도록 (_랑 확장자는 생략 가능)
