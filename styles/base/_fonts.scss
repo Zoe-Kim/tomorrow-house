@@ -3,12 +3,9 @@
 
 @font-face {
   font-family: 'tomorrow-house';
-  // src: url('fonts/tomorrow-house.eot?to8179'); -> ?to8179와 같이 뒤에 붙는 이상한 태그 지우기
+  /* src: url('fonts/tomorrow-house.eot?to8179'); -> ?to8179와 같이 뒤에 붙는 이상한 태그 지우기 */
   src: url('./assets/fonts/tomorrow-house.eot');
-  src: url('./assets/fonts/tomorrow-house.eot#iefix')
-      format('embedded-opentype'),
-    url('./assets/fonts/tomorrow-house.ttf') format('truetype'),
-    url('./assets/fonts/tomorrow-house.woff') format('woff'),
+  src: url('./assets/fonts/tomorrow-house.eot#iefix') format('embedded-opentype'), url('./assets/fonts/tomorrow-house.ttf') format('truetype'), url('./assets/fonts/tomorrow-house.woff') format('woff'),
     url('./assets/fonts/tomorrow-house.svg#tomorrow-house') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -18,7 +15,7 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'tomorrow-house' !important;
-  // speak: never;  -> 필요없는데 에러뜨는 부분은 삭제
+  /* speak: never;  -> 필요없는데 에러뜨는 부분은 삭제 */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
