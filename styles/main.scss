@@ -1,4 +1,7 @@
 // main.scss가 base폴더 내 scss들을 인식하도록 (_랑 확장자는 생략 가능)
+// 변수는 항상 최상단에 선언
+@import './constants/colors';
+
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
