@@ -1,0 +1,15 @@
+@mixin responsive($screen) {
+  // TABLET
+  @if ($screen == 'T') {
+    @media screen and (min-width: $md-breakpoint) {
+      @content; // mixin 호출할 때 내용 추가하려면 선언해야 함
+    }
+  }
+
+  // DESKTOP
+  @if ($screen == 'D') {
+    @media screen and (min-width: $lg-breakpoint) {
+      @content;
+    }
+  }
+}
